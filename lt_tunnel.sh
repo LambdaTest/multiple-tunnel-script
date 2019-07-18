@@ -10,7 +10,7 @@ fi
 
 # check for lt creds
 if [[ -z "$LT_USERNAME" || -z "$LT_ACCESS_KEY" ]]; then
-    echo "You need to set SAUCE_USERNAME and SAUCE_ACCESS_KEY"
+    echo "You need to set LT_USERNAME and LT_ACCESS_KEY"
     exit 1
 fi
 
@@ -42,7 +42,7 @@ mkdir -p "$ltdir"
 
 rm -f "$ltdir/$server.log"
 
-# set up one sauce tunnel for each server passed on the command line
+# set up one lamdbda tunnel for each server passed on the command line
 for server; do
     printf "server is $server \n"
     pidfile="$ltdir/$server.pid"
