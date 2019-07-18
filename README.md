@@ -3,7 +3,7 @@
 ### Mac OSX and Linux
 
 1. Follow the setup instructions
-   Linux (https://www.lambdatest.com/support/docs/display/TD/Local+Testing+For+Linux)
+   Linux (https://www.lambdatest.com/support/docs/display/TD/Local+Testsing+For+Linux)
    Mac (https://www.lambdatest.com/support/docs/display/TD/Local+Testing+For+MacOS)
    for Lambda Tunnel. Make sure the `LT` binary ends up in your `LT_TUNNEL_PATH`.
    ```
@@ -42,9 +42,7 @@ WonderProxy server name that you specify as an argument. For example:
 # london.wonderproxy.com
 $ ./lt_tunnel.sh telaviv london
 ```
-
-The demos here use the Albquerque, Tel Aviv, and Vancouver WonderProxy servers,
-so you'll need three tunnels:
+Running the script adding the wonderproxy server namse
 
 ```
 $ ./lt_tunnel.sh albuquerque telaviv vancouver
@@ -59,7 +57,7 @@ for example:
 `tunnelName: telaviv `
 
 
-## Close the Sauce Connect Tunnels
+## Close the LambdaTest Tunnels
 
 ### Mac OSX and Linux
 
